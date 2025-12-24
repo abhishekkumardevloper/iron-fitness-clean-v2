@@ -172,9 +172,9 @@ export const galleryImages = [
 ];
 
 export const contactInfo = {
-  phone: '+1 (555) 123-4567',
+  phone: '+91 8340490644',
   email: 'info@ironfitness.com',
-  address: '2450 Muscle Avenue, Strength District, CA 90210',
+  address: 'Iron Fitness, Nayagoan, Jamalpur',
   hours: {
     weekdays: '5:00 AM - 11:00 PM',
     weekends: '6:00 AM - 10:00 PM'
