@@ -1,0 +1,64 @@
+/* Iron Fitness Custom Styles */
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C30000;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A30000;
+}
+
+/* Selection */
+::selection {
+  background: #C30000;
+  color: white;
+}
+
+/* Button transitions */
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Link transitions */
+a {
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+/* Image hover effect */
+img {
+  transition: transform 0.5s ease;
+}
+
+/* Smooth animations */
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
