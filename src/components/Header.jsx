@@ -43,7 +43,7 @@ export const Header = () => {
               <Dumbbell className="w-6 h-6 text-white" />
             </div>
             <span className="text-2xl font-bold text-white">
-              GOLD'S <span className="text-[#C30000]">GYM</span>
+              HULK <span className="text-[#C30000]">FITNESS</span>
             </span>
           </Link>
 
